@@ -1,0 +1,16 @@
+generated: '2026-10-22'
+method: probed
+generator: harvest-packages.py
+source: registry metadata endpoints (registry.npmjs.org, pypi.org, rubygems.org, api.nuget.org, packagist.org, crates.io) ; github.com/tencentmusic
+ownership_rule: 'official: true only when the registry metadata (homepage, repository, author, URLs) names the provider''s domain (postman.com,
+  security/tencent-music-entertainment-group-domain-security.yml, tencentmusic.com) or its accepted GitHub org (tencentmusic).'
+packages:
+- name: qqmusic_innovocation_opisdk_harmony_demo
+  registry: github
+  url: https://github.com/tencentmusic/qqmusic_innovocation_opisdk_harmony_demo
+  language: TypeScript
+  official: true
+  version: null
+  published: '2026-07-23'
+  source_repo: https://github.com/tencentmusic/qqmusic_innovocation_opisdk_harmony_demo
+  evidence: repository in github.com/tencentmusic, whose profile names the provider's domain

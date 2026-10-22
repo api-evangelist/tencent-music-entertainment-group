@@ -1,0 +1,16 @@
+generated: '2026-10-22'
+method: none
+source:
+- https://zapier.com/apps/tencent-music-entertainment-group/integrations
+- https://n8n.io/integrations/tencent-music-entertainment-group/
+- https://composio.dev/toolkits/tencent-music-entertainment-group
+- https://monid.ai/tools/tencent-music-entertainment-group
+checked:
+- https://composio.dev/toolkits/tencent-music-entertainment-group
+- https://monid.ai/tools/tencent-music-entertainment-group
+- https://n8n.io/integrations/tencent-music-entertainment-group/
+- https://zapier.com/apps/tencent-music-entertainment-group/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

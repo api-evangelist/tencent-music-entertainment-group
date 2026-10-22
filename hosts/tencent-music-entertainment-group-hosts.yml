@@ -1,0 +1,132 @@
+generated: '2026-10-22'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 10
+  own: 8
+  other_domain: 0
+  platform: 2
+  roles:
+  - api
+  - collections
+  - other
+  - portal
+  - source
+  - website
+hosts:
+- host: api.tencentmusic.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: tencentmusic.com
+  role: api
+  relation: own
+- host: github.com
+  found_by:
+  - pointer
+  types:
+  - GitHubOrganization
+  serves: []
+  registrable_domain: github.com
+  role: source
+  relation: platform
+- host: institute.tencentmusic.com
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: tencentmusic.com
+  role: other
+  relation: own
+- host: ir.tencentmusic.com
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: tencentmusic.com
+  role: other
+  relation: own
+- host: join.tencentmusic.com
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: tencentmusic.com
+  role: other
+  relation: own
+- host: opencloud.tencentmusic.com
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  - well-known
+  types:
+  - DeveloperPortal
+  - APIReference
+  serves: []
+  registrable_domain: tencentmusic.com
+  role: portal
+  relation: own
+- host: www.postman.com
+  found_by:
+  - pointer
+  - vendor-detect
+  types:
+  - Postman
+  serves:
+  - api-collections
+  vendor: postman
+  registrable_domain: postman.com
+  role: collections
+  relation: platform
+- host: www.tencentmusic.com
+  found_by:
+  - pointer
+  - probed
+  - contract-discovery
+  - well-known
+  types:
+  - Website
+  - Documentation
+  - GettingStarted
+  - Support
+  - Blog
+  - Roadmap
+  - Pricing
+  - TermsOfService
+  - PrivacyPolicy
+  serves: []
+  registrable_domain: tencentmusic.com
+  role: website
+  relation: own
+- host: y.tencentmusic.com
+  found_by:
+  - probed
+  - site-links
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: tencentmusic.com
+  role: other
+  relation: own
+- host: yobang.tencentmusic.com
+  found_by:
+  - probed
+  - site-links
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: tencentmusic.com
+  role: other
+  relation: own

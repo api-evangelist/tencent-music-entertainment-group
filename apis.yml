@@ -1,25 +1,93 @@
 aid: tencent-music-entertainment-group
+
 name: Tencent Music Entertainment Group
-description: 'Tencent Music Entertainment Group is a company surfaced via the API Evangelist harvest backlog
-  (source: vc-portfolio; backed by coatue) and added to the network as a stub for full-pipeline profiling.'
+
+image: https://prodpublic-1253428821.cos.ap-guangzhou.myqcloud.com/public/tme_logo/TME_LOGO_CN.png
+
+description: 'Tencent Music Entertainment Group (TME) is a leading Chinese online music entertainment platform offering streaming services, digital music distribution, and live concert experiences across brands such as QQ Music, Kugou, Kuwo, and JOOX. It provides a comprehensive ecosystem for artists, listeners, and partners, integrating social features, AI-driven recommendations, and extensive licensing across domestic and international markets. TME is publicly listed and actively expands its audio content through acquisitions and strategic partnerships.'
+
 url: https://raw.githubusercontent.com/api-evangelist/tencent-music-entertainment-group/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-22 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-22'
+
 modified: '2026-10-22'
+
 tags:
 - Company
-apis: []
+- Music
+- Streaming
+- Entertainment
+- China
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-x-backed-by:
-- coatue
+
 common:
+- type: Hosts
+  url: hosts/tencent-music-entertainment-group-hosts.yml
+- type: Vendors
+  url: vendors/tencent-music-entertainment-group-vendors.yml
+- type: SDKs
+  url: packages/tencent-music-entertainment-group-packages.yml
+- type: Packages
+  url: packages/tencent-music-entertainment-group-packages.yml
+- type: DomainSecurity
+  url: security/tencent-music-entertainment-group-domain-security.yml
 - type: Website
   url: https://www.tencentmusic.com/
+- type: DeveloperPortal
+  url: https://opencloud.tencentmusic.com/
+- type: Documentation
+  url: https://www.tencentmusic.com/zh-cn/about-us.html
+- type: APIReference
+  url: https://opencloud.tencentmusic.com/
+- type: GettingStarted
+  url: https://www.tencentmusic.com/zh-cn/about-us.html
+- type: Support
+  url: https://www.tencentmusic.com/zh-cn/contact.html
+- type: Blog
+  url: https://www.tencentmusic.com/zh-cn/news.html
+- type: GitHubOrganization
+  url: https://github.com/tencentmusic
+- type: Roadmap
+  url: https://www.tencentmusic.com/zh-cn/business.html
+- type: Pricing
+  url: https://www.tencentmusic.com/zh-cn/business.html
+- type: TermsOfService
+  url: https://www.tencentmusic.com/zh-cn/protocol.html
+- type: PrivacyPolicy
+  url: https://www.tencentmusic.com/zh-cn/privacypolicy.html
+- type: Postman
+  url: https://www.postman.com/tencentmusic
+
+apis: []
+
+x-backed-by:
+- coatue
+
+x-coverage:
+  state: unreadable
+  reason: js-rendered-docs
+  detail: Developer portal at https://opencloud.tencentmusic.com/ returns a 403 HTML page, no machine‑readable spec.
+  evidence:
+    - url: https://opencloud.tencentmusic.com/
+      status: 403
+  checked: '2026-10-22'
+x-enrichment:
+  date: '2026-10-22'
+  status: enriched
+  artifacts_added: 9
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local
