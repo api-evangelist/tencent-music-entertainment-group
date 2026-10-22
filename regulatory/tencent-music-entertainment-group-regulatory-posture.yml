@@ -4,29 +4,29 @@ source: https://www.tencentmusic.com/zh-cn/privacypolicy.html
 signals:
   data_subject_request:
     evidence:
-      - source: https://www.tencentmusic.com/zh-cn/privacypolicy.html
-        http_status: 200
-        fetched: 'https://www.tencentmusic.com/zh-cn/privacypolicy.html'
-        quote: "您可以在使用我们服务的过程中，通过查阅、复制、更正、补充、删除等方式来管理您的信息"
-        note: Users can access, correct, delete their personal data.
+    - source: https://www.tencentmusic.com/zh-cn/privacypolicy.html
+      http_status: 200
+      fetched: https://www.tencentmusic.com/zh-cn/privacypolicy.html
+      quote: 您可以在使用我们服务的过程中，通过查阅、复制、更正、补充、删除等方式来管理您的信息
+      note: Users can access, correct, delete their personal data.
   subprocessors:
     evidence:
-      - source: https://www.tencentmusic.com/zh-cn/privacypolicy.html
-        http_status: 200
-        fetched: 'https://www.tencentmusic.com/zh-cn/privacypolicy.html'
-        quote: "我们与第三方合作过程中，将遵守法律规定，按照最小必要原则，安全审慎地处理相关数据。"
-        note: Indicates use of third‑party processors under contractual safeguards.
+    - source: https://www.tencentmusic.com/zh-cn/privacypolicy.html
+      http_status: 200
+      fetched: https://www.tencentmusic.com/zh-cn/privacypolicy.html
+      quote: 我们与第三方合作过程中，将遵守法律规定，按照最小必要原则，安全审慎地处理相关数据。
+      note: Indicates use of third‑party processors under contractual safeguards.
   data_retention:
     evidence:
-      - source: https://www.tencentmusic.com/zh-cn/privacypolicy.html
-        http_status: 200
-        fetched: 'https://www.tencentmusic.com/zh-cn/privacypolicy.html'
-        quote: "存储信息的地点和期限"
-        note: Section heading mentions storage location and retention period.
+    - source: https://www.tencentmusic.com/zh-cn/privacypolicy.html
+      http_status: 200
+      fetched: https://www.tencentmusic.com/zh-cn/privacypolicy.html
+      quote: 一般而言，我们仅为实现目的所必需的最短时间保留您的个人信息。但下列情况除外：8.2.1 为遵守适用的法律法规等有关规定；
+      note: Section 8.2 (retention period), verbatim from the fetched page.
   incident_notification:
     evidence:
-      - source: https://www.tencentmusic.com/zh-cn/privacypolicy.html
-        http_status: 200
-        fetched: 'https://www.tencentmusic.com/zh-cn/privacypolicy.html'
-        quote: "我们将严格保护您的个人信息，不会主动公开披露您的个人信息，亦不会主动向合作伙伴分享可用于识别您个人身份的信息，除非经您单独同意或法律法规另有规定"
-        note: References legal obligations which may include incident handling.
+    - source: https://www.tencentmusic.com/zh-cn/privacypolicy.html
+      http_status: 200
+      fetched: https://www.tencentmusic.com/zh-cn/privacypolicy.html
+      quote: 我们将严格保护您的个人信息，不会主动公开披露您的个人信息，亦不会主动向合作伙伴分享可用于识别您个人身份的信息，除非经您单独同意或法律法规另有规定
+      note: References legal obligations which may include incident handling.
